@@ -11,13 +11,10 @@ class Technician extends Staff {
     }
 
     public void Maintain(String Lab) {
-        // Implementation for maintaining a lab
         System.out.println(this.Name + "is maintaining " + Lab);
     }
 
     public void Install(String system) {
-        // Implementation for installing a system
         System.out.println(system + "is being installed by " + this.Name );
-
     }
 }

@@ -2,10 +2,10 @@ package Q2;
 
 // Concrete class Faculty
 class Faculty extends Staff {
-    private String FacultySpecialization;
-    private String Section;
-    private int NoOfStudents;
-    private String Qualification;
+    public String FacultySpecialization;
+    public String Section;
+    public int NoOfStudents;
+    public String Qualification;
 
     public Faculty(int AadharID, String Name, String Address, int Phone, String Profession,
                    String EmpID, String EmpRole, String EmpDept, float EmpSalary, int EmpExperience,
@@ -18,11 +18,11 @@ class Faculty extends Staff {
     }
 
     public void Teach(String Course) {
-        // Implementation for teaching a course
+       System.out.println("Teaching course " + Course);
     }
 
     public String Assess(String StudentGrade) {
-        // Implementation for assessing a student's grade
-        return "Assessing...";
+      
+        return "Assessing..."+StudentGrade ;
     }
 }

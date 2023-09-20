@@ -7,7 +7,6 @@ class Student extends Person {
     public int Semester;
     public String College;
     public int Grade;
-
     public Student(int AadharID, String Name, String Address, int Phone, String Profession,
                    String StudentID, String Major, int Year, int Semester, String College) {
         super(AadharID, Name, Address, Phone, Profession);
@@ -28,25 +27,20 @@ class Student extends Person {
     }
 
     public int getGrade(String Course) {
-        // Implementation for getting grade of a course
         return Grade;
     }
-
     public void Attend(String Class) {
         System.out.println("Student " + this.Name + " "  + this.StudentID + "is attending class " + Class);
     }
-
     public String Learn() {
-        // Implementation for learning
         return "Learning...";
     }
     public void include(String service) {
         System.out.println("Student " + Name + " has included the service: " + service);
-        // Implementation for including a service for a student
     }
     public void like(String item) {
         System.out.println("Student " + Name + " likes the item: " + item);
-        // Implementation for indicating that a student likes an item
+
     }
 
 }

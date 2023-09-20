@@ -42,11 +42,11 @@ class Staff extends Person {
 
     public void include(String service) {
         System.out.println("Staff " + Name + " has included the service: " + service);
-        // Implementation for including a service for staff
+
     }
     public void like(String item) {
         System.out.println("Staff " + Name + " likes the item: " + item);
-        // Implementation for indicating that staff likes an item
+
     }
 
 }
