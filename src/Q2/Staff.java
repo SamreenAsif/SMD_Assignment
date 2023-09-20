@@ -1,5 +1,5 @@
 
-
+package Q2;
 // Polymorphic class STAFF
 class Staff extends Person {
     public String EmpID;

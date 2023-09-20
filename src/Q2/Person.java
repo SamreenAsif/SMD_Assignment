@@ -1,4 +1,4 @@
-
+package Q2;
 abstract class Person {
     public int AadharID;
     public String Name;

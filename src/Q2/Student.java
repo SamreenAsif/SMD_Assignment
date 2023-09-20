@@ -1,4 +1,4 @@
-
+package Q2;
 // Polymorphic class STUDENT
 class Student extends Person {
     public String StudentID;

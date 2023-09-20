@@ -1,4 +1,4 @@
-
+package Q2;
 
 // Concrete class Faculty
 class Faculty extends Staff {

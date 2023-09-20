@@ -1,4 +1,4 @@
-
+package Q2;
 // Concrete class Technician
 class Technician extends Staff {
    public String TechType;
