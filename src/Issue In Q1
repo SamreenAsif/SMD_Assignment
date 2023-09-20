@@ -1,0 +1,7 @@
+Issue in Q1 is what is known as Diamond problem i.e. multiple inheritance. As we can see in the uml diagram that both Batsman and Bowler 
+class inherit from Cricketer class till this it is fine but as we move down in the class diagram there is an All rounder class which 
+inherits both Batsman and Bowler class due to which the multiple inheritance issue arises. Java doesn't allow multiple inheritance so
+compiler will automatically give us an error but why java doesn't allow us to do us ? it is because of conflict as when a class inherits
+from multiple classes those multiple class can have same functions in them so when we create the object of that subclass and call the function
+that both the inherited classes have in them the compiler will not know which classes function to call. So this was the problem that
+we are encountering in the given um diagram.
