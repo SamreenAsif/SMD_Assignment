@@ -1,6 +1,6 @@
 package Q1_ver2;
 
-public class Bowler extends Cricketer implements BowlerInterface {
+public class Bowler extends Cricketer implements  BowlerInterface{
     public int Wickets;
     public int BowlerRanking;
 
@@ -22,6 +22,11 @@ public class Bowler extends Cricketer implements BowlerInterface {
     @Override
     public int getRanking() {
         return BowlerRanking;
+    }
+
+    @Override
+    public int getWickets() {
+        return Wickets ;
     }
 
 }

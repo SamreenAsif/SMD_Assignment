@@ -1,6 +1,6 @@
 package Q1_ver2;
 
-public class Cricketer implements CricketerInterface{
+public class Cricketer {
     public String Name;
     public int Age;
     public String Nationality;
@@ -11,12 +11,12 @@ public class Cricketer implements CricketerInterface{
         this.Nationality = nationality;
     }
 
-    @Override
     public void Print() {
         System.out.println("Name: " + Name);
         System.out.println("Age: " + Age);
         System.out.println("Nationality: " + Nationality);
     }
+
 }
 
 

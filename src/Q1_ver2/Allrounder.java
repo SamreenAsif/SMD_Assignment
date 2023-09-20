@@ -1,6 +1,6 @@
 package Q1_ver2;
 
-public class Allrounder extends Cricketer implements BatsmanInterface, BowlerInterface {
+public class Allrounder extends Cricketer implements BatsmanInterface , BowlerInterface {
 
     public int Score;
     public int Wickets;
@@ -33,6 +33,16 @@ public class Allrounder extends Cricketer implements BatsmanInterface, BowlerInt
     @Override
     public int getRanking() {
         return Ranking;
+    }
+
+    @Override
+    public int getScore() {
+       return Score ;
+    }
+
+    @Override
+    public int getWickets() {
+        return Wickets ;
     }
 
 }

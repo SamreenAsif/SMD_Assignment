@@ -1,6 +1,6 @@
 package Q1_ver2;
 
-public class Batsman extends Cricketer implements BatsmanInterface {
+public class Batsman extends Cricketer implements BatsmanInterface{
     public int Score;
     public int BatsmanRanking;
 
@@ -21,6 +21,11 @@ public class Batsman extends Cricketer implements BatsmanInterface {
     @Override
     public int getRanking() {
         return BatsmanRanking;
+    }
+
+    @Override
+    public int getScore() {
+        return 0;
     }
 
 }
