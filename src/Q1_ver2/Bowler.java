@@ -10,11 +10,12 @@ public class Bowler extends Cricketer implements BowlerInterface {
         this.BowlerRanking = bowlerRanking;
     }
 
+
     @Override
     public void Print() {
         super.Print();
         System.out.println("Wickets: " + Wickets);
-        System.out.println("Bowler Ranking" + BowlerRanking);
+        System.out.println("Bowler Ranking: " + BowlerRanking);
 
     }
 
